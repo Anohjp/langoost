@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>2 - CHARTE / Icons / default / flag-alt</title>
+    <desc>Created with Sketch.</desc>
+    <g id="2---CHARTE-/-Icons-/-default-/-flag-alt" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag-alt" transform="translate(4.000000, 4.000000)" fill="#402955">
+            <path d="M1,0.000781896372 C0.446875,0.000781896372 0,0.447635058 0,1.00073303 L0,15.5000244 C0,15.775011 0.225,16 0.5,16 L1.5,16 C1.775,16 2,15.775011 2,15.5000244 L2,1.00073303 C2,0.447635058 1.553125,0.000781896372 1,0.000781896372 Z M14.45625,0.132025482 C9.103125,2.86001716 9.54375,-1.94287312 3,1.01323242 L3,12.0001955 C8.803125,9.11908628 9.928125,13.6657391 15.421875,11.2783558 C15.778125,11.1221134 16,10.7627559 16,10.3783997 L16,0.96323486 C16,0.178898192 15.1625,-0.227331955 14.45625,0.132025482 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

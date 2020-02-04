@@ -1,0 +1,116 @@
+
+
+MEMO OPTIMISATION FRONT GLOBAL EXAM
+
+1- LOGO
+
+	- Changer le logo avec celui avec le moto OK
+
+	- Mettre a la taille conveanble (2.5rem) OK
+
+2- BOUTON SWITCH PROFIL
+
+	- Egaliser les padding de border top - right - left - bottom OK
+
+	- Fixer la position du bouton entre B2C et B2B OK
+
+	- Ajuster la couleur gris du border 
+
+3- MENU B2C
+
+	- Ajuster la couleur du menu et le bold (bold 500 - padding-right: 0.3rem - font-size:.8rem) 
+
+	- Ajuster le margin right de chaque item de menu
+
+	- Mettre effet ombre en dessous du menu 
+
+	-  BTN Mon Espace 
+
+		o Ajuster le texte 
+
+		o Ajuster le bg du bouton 
+
+		o Ajuster le border convenablement
+
+		o Augmenter le padding des bouton 0.6 rem
+
+		o Mettre effet bouton
+
+	- BTN Creer mon espace
+
+		o Ajuster le texte
+
+		o Augmenter le padding des bouton 0.6 rem
+
+		o Mettre effet bouton 
+
+4- MENU B2B (valider les points valables) 
+
+	- Ecarter la flache de pointage 
+
+	- Coller le bg du sous menu de sorte a ne pas voir le trait jaune et bleu 
+
+	- Agrandir les icones (1.3rem) 
+
+	- Mettre les textes qui doivent l'etre sur 2 lignes 
+
+	- Mettre les textes a la meme taille que le menu de niveau 1 
+
+	- Reduire le bold et laisser seulement au survol des textes
+
+
+
+5- SOUS MENU PROFESSIONNELS -> QUI ETES-VOUS ? ET AUTRES
+
+6- SOUS MENU PROFESSIONNELS -> NOS SERVICES 
+
+	- Agrandir icones et mettre espace avec le texte
+
+	- Augmenter interligne entre les textes
+
+	- Mettre le texte au survol en bold
+
+	- Centrer le sous menu 
+
+7- SOUS MENU PARTICULIERS -> TEST DE LANGUE 
+
+	- Reserrer la zone de texte pour rapprocher les menus
+
+	- Uniformiser la taille des sous menus a celle du menu de niveau 1 
+
+	- Aligner la position top des premiers items
+
+	- Augmneter un peu les drapeaux 
+
+8- SOUS MENU PARTICULIERS -> BUSINESS ENGLISH 
+
+	- Retire la fleche de pointage
+
+9- SOUS MENU PARTICULIERS -> Autres... (Appliquer les meme critiques que Professionnels)
+
+10 - FOOTER
+
+     OK	- Aligner rigoureusement la largeur du footer au header 
+
+     OK	- Ajuster la couleur violet du background
+
+     OK	- Augmenter le logo meme taille que le header 
+
+     OK	- Augmneter la taille du demi cerle en background 
+
+     OK	- Bien calibrer les menus par rapport au trait vertical gauche 
+
+     OK	- Ajuster le couleur du trait vertical 
+
+     OK	- Mettre les Stars de Trustpilot 
+ 
+     OK	- Augmenter la taille du texte Abonnez-vous a la newsletter Langoost 
+ 
+     OK	- Ajuster la couleur des textes Particuliers / Professionnels 
+
+     OK	- Reduire la taille du champ email pour le remettre dans le background et ajuster le border radius
+
+     OK	- Reduire la taille des textes du copyright et mettre le bon texte 
+
+     OK	- Ajuster les padding top et bottom du texte de copyrighte
+

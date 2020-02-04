@@ -1,0 +1,634 @@
+/**
+ * This injects Tailwind's base styles, which is a combination of
+ * Normalize.css and some additional base styles.
+ *
+ * You can see the styles here:
+ * https://github.com/tailwindcss/tailwindcss/blob/master/css/base.css
+ *
+ * If using `postcss-import`, use this import instead:
+ *
+ * @import "tailwindcss/base";
+ */
+ @tailwind base;
+
+    @font-face {
+        font-family: Montserrat;
+        src: url('./fonts/montserrat/Montserrat-Black.otf') format("otf");
+    }
+    @font-face {
+        font-family: Montserrat;
+        src: url('./fonts/montserrat/Montserrat-Bold.otf') format("otf");
+    }
+ /**
+  * This injects any component classes registered by plugins.
+  *
+  * If using `postcss-import`, use this import instead:
+  *
+  * @import "tailwindcss/components";
+  */
+ @tailwind components;
+
+ /**
+  * Here you would add any of your custom component classes; stuff that you'd
+  * want loaded *before* the utilities so that the utilities could still
+  * override them.
+  *
+  * Example:
+  *
+  * .btn { ... }
+  * .form-input { ... }
+  *
+  * Or if using a preprocessor or `postcss-import`:
+  *
+  * @import "components/buttons";
+  * @import "components/forms";
+  */
+
+.btn-global {
+    @apply border border-2 rounded-full py-16px px-32px font-extrabold relative;
+}
+.btn-smaller {
+    @apply text-xs font-bold rounded-full py-2 px-4 bg-langoostOrange80 text-langoostTextWhite;
+}
+/* Bouton defaut */
+.btn-default{
+    @apply text-langoostTextWhite bg-langoostVioletDark80 border-0;
+}
+.btn-default-big{
+    @apply text-2xl;
+}
+.btn-default-large{
+    @apply text-xl;
+}
+.btn-default-massive {
+    @apply text-base;
+}
+.btn-default-medium{
+    @apply text-sm;
+}
+.btn-default-small{
+    @apply text-xs;
+}
+
+/* Bouton Premium */
+.btn-premium{
+    @apply text-langoostTextWhite bg-langoostGold80 border-langoostGold80;
+}
+.btn-premium-big{
+    @apply text-2xl;
+}
+.btn-premium-large{
+    @apply text-xl;
+}
+.btn-premium-massive {
+    @apply text-base;
+}
+.btn-premium-medium{
+    @apply text-sm;
+}
+.btn-premium-small{
+    @apply text-xs;
+}
+
+/* Bouton Primary */
+.btn-primary{
+    @apply text-langoostTextWhite bg-langoostOrange80 border-langoostOrange80;
+}
+.btn-primary-big{
+    @apply text-2xl;
+}
+.btn-primary-large{
+    @apply text-xl;
+}
+.btn-primary-massive {
+    @apply text-base;
+}
+.btn-primary-medium{
+    @apply text-sm;
+}
+.btn-primary-small{
+    @apply text-xs;
+}
+
+
+/* Bouton Tertiary */
+.btn-tertiary-big-orange{
+    @apply text-2xl text-langoostOrange05 border-langoostOrange05;
+}
+.btn-tertiary-big-violet{
+    @apply text-2xl text-langoostViolet05 border-langoostViolet05;
+}
+.btn-tertiary-big-yellow{
+    @apply text-2xl text-langoostGold05 border-langoostGold05;
+}
+.btn-tertiary-large-orange{
+    @apply text-xl text-langoostOrange05 border-langoostOrange05;
+}
+.btn-tertiary-large-violet{
+    @apply text-xl text-langoostViolet05 border-langoostViolet05;
+}
+.btn-tertiary-large-yellow{
+    @apply text-2xl text-langoostGold05 border-langoostGold05;
+}
+.btn-tertiary-massive-orange {
+    @apply text-base text-langoostOrange05 border-langoostOrange05;
+}
+.btn-tertiary-massive-violet {
+    @apply text-base text-langoostViolet05 border-langoostViolet05;
+}
+.btn-tertiary-massive-yellow {
+    @apply text-base text-langoostGold05 border-langoostGold05;
+}
+.btn-tertiary-medium-orange{
+    @apply text-sm text-langoostOrange05 border-langoostOrange05;
+}
+.btn-tertiary-medium-violet{
+    @apply text-sm text-langoostViolet05 border-langoostViolet05;
+}
+.btn-tertiary-medium-yellow{
+    @apply text-sm text-langoostGold05 border-langoostGold05;
+}
+.btn-tertiary-small-orange{
+    @apply text-xs text-langoostOrange05 border-langoostOrange05;
+}
+.btn-tertiary-small-violet{
+    @apply text-xs text-langoostViolet05 border-langoostViolet05;
+}
+.btn-tertiary-small-yellow{
+    @apply text-xs text-langoostGold05 border-langoostGold05;
+}
+
+/* Bouton Outline */
+.btn-outline-default-big{
+    @apply text-2xl text-langoostVioletDark80 border-langoostVioletDark80;
+}
+.btn-outline-default-large{
+    @apply text-xl text-langoostVioletDark80 border-langoostVioletDark80;
+}
+.btn-outline-default-massive{
+    @apply text-base text-langoostVioletDark80 border-langoostVioletDark80;
+}
+.btn-outline-default-medium{
+    @apply text-sm text-langoostVioletDark80 border-langoostVioletDark80;
+}
+.btn-outline-default-small{
+    @apply text-xs text-langoostVioletDark80 border-langoostVioletDark80;
+}
+.btn-outline-premium-big{
+    @apply text-2xl text-langoostGold80 border-langoostGold80;
+}
+.btn-outline-premium-large{
+    @apply text-xl text-langoostGold80 border-langoostGold80;
+}
+.btn-outline-premium-massive{
+    @apply text-base text-langoostGold80 border-langoostGold80;
+}
+.btn-outline-premium-medium{
+    @apply text-sm text-langoostGold80 border-langoostGold80;
+}
+.btn-outline-premium-small{
+    @apply text-xs text-langoostGold80 border-langoostGold80;
+}
+.btn-outline-primary-big{
+    @apply text-2xl text-langoostOrange80 border-langoostOrange80;
+}
+.btn-outline-primary-large{
+    @apply text-xl text-langoostOrange80 border-langoostOrange80;
+}
+.btn-outline-primary-massive{
+    @apply text-base text-langoostOrange80 border-langoostOrange80;
+}
+.btn-outline-primary-medium{
+    @apply text-sm text-langoostOrange80 border-langoostOrange80;
+}
+.btn-outline-primary-small{
+    @apply text-xs text-langoostOrange80 border-langoostOrange80;
+}
+
+/*Bouton Exam */
+.btn-exam{
+    @apply text-xl text-langoostViolet80 border-langoostViolet80;
+}
+
+.mega-menu{
+    @apply hidden absolute text-left left-0 w-full top-64px;
+}
+.hoverable{
+    @apply static;
+}
+.toggle-input{
+    @apply hidden;
+}
+
+.btn-buttonViolet{
+    @apply text-langoostTextWhite bg-langoostViolet80;
+}
+
+/* Menus */
+.b2b-menu{
+    @apply relative block font-medium text-tiny text-langoostTextWhite pt-20px pb-22px pr-5px pl-16px;
+}
+.b2b-menu:hover{
+    @apply text-langoostOrange80;
+}
+.b2b-sous-menu{
+    @apply relative block font-normal text-tiny text-langoostViolet80;
+}
+.b2b-sous-menu:hover{
+    @apply text-langoostOrange80 font-bold;
+}
+.b2b-icone-sous-menu{
+     @apply text-21px text-langoostViolet80;
+ }
+.b2b-icone-sous-menu:hover{
+    @apply text-langoostOrange80 font-bold;
+}
+
+.b2b-sous-menu2{
+    @apply text-langoostViolet80 text-tiny font-medium;
+}
+.b2b-sous-menu2:hover{
+    @apply text-langoostOrange80 font-bold;
+}
+.b2b-sous-menu2:active{
+    @apply text-langoostOrange80 font-bold;
+}
+
+.b2c-menu{
+     @apply relative block font-medium text-tiny text-langoostViolet80 pt-22px pb-22px pr-5px pl-16px;
+ }
+.b2c-menu:hover{
+    @apply text-langoostOrange80;
+}
+.b2c-sous-menu{
+    @apply relative block font-medium text-tiny text-langoostGrey30;
+}
+.b2c-sous-menu:hover{
+    @apply text-langoostTextWhite font-bold;
+}
+.b2c-icone-sous-menu{
+    @apply text-21px text-langoostGrey30;
+}
+.b2c-icone-sous-menu:hover{
+    @apply text-langoostOrange80 font-bold;
+}
+
+.b2b-sous-menu-header{
+    @apply font-black text-langoostViolet80;
+}
+.b2b-sous-menu-header:hover{
+    @apply font-black text-langoostViolet80;
+}
+.b2b-icone-sous-menu-header{
+    @apply text-21px text-langoostViolet80;
+}
+.b2c-sous-menu-header{
+    @apply font-black text-langoostTextWhite;
+}
+.b2c-sous-menu-header:hover{
+    @apply font-black text-langoostTextWhite;
+}
+/* Boutons du Header */
+.bouton-menu{
+    @apply font-medium text-tiny text-langoostTextWhite bg-langoostOrange80 border-langoostOrange80 border-2 pt-10px pb-10px px-15px rounded-full;
+}
+.bouton-menu2{
+    @apply font-medium text-tiny bg-langoostTextWhite text-langoostOrange80 border-langoostOrange80 border-2 pt-10px pb-10px px-15px rounded-full;
+}
+
+
+
+
+.item-menu-prof-level1{
+    @apply relative block pl-6 pr-5px px-4 text-tiny font-medium text-langoostTextWhite;
+}
+
+.item-menu-prof-level1:hover{
+    @apply text-langoostOrange80;
+}
+.item-menu-prof-level1:active{
+    @apply text-langoostOrange80;
+}
+.item-menu-prof-level1:lg{
+    @apply p-6 text-base;
+}
+
+
+.item-menu-part-level1{
+    @apply relative block pl-6 pr-5px px-4 text-tiny font-medium text-langoostVioletDark80;
+}
+
+.item-menu-part-level1:hover{
+    @apply text-langoostOrange80;
+}
+.item-menu-part-level1:active{
+    @apply text-langoostOrange80;
+}
+.item-menu-part-level1:lg{
+    @apply p-6 text-base;
+}
+    .item-menu-part-dropdown{
+    @apply text-langoostTextWhite text-tiny font-medium;
+}
+.item-menu-part-dropdown:hover{
+    @apply text-langoostOrange80;
+}
+.item-menu-part-dropdown:active{
+    @apply text-langoostOrange80;
+}
+
+ /**
+  * This injects all of Tailwind's utility classes, generated based on your
+  * config file.
+  *
+  * If using `postcss-import`, use this import instead:
+  *
+  * @import "tailwindcss/utilities";
+  */
+ @tailwind utilities;
+ 
+ /**
+  * Here you would add any custom utilities you need that don't come out of the
+  * box with Tailwind.
+  *
+  * Example :
+  *
+  * .bg-pattern-graph-paper { ... }
+  * .skew-45 { ... }
+  *
+  * Or if using a preprocessor or `postcss-import`:
+  *
+  * @import "utilities/background-patterns";
+  * @import "utilities/skew-transforms";
+  */
+
+
+/*---------------*/
+/***** Layla *****/
+/*---------------*/
+/* Common style */
+figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin-right: -4px;
+    min-width: 250px;
+    max-width: 250px;
+    max-height: 160px;
+    width: 48%;
+    text-align: center;
+    cursor: pointer;
+}
+
+figure img {
+    position: relative;
+    display: block;
+    min-height: 100%;
+    max-width: 100%;
+    opacity: 0.8;
+}
+
+figure figcaption {
+    padding: 2em;
+    color: #fff;
+    text-transform: none;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+figure figcaption::before,
+figure figcaption::after {
+    pointer-events: none;
+}
+
+figure figcaption,
+figure figcaption > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+figure figcaption > a {
+    z-index: 1000;
+    text-indent: 200%;
+    white-space: nowrap;
+    font-size: 0;
+    opacity: 0;
+}
+
+figure h2 {
+    word-spacing: -0.15em;
+    font-weight: 700;
+}
+
+figure h2 span {
+    font-weight: 700;
+}
+
+figure h2,
+figure p {
+    margin: 0;
+}
+
+figure p {
+    letter-spacing: 1px;
+    font-size: 68.5%;
+}
+
+figure.effect-layla img {
+    height: 200px;
+}
+
+figure.effect-layla figcaption {
+    padding: 3em;
+}
+
+figure.effect-layla figcaption::before,
+figure.effect-layla figcaption::after {
+    position: absolute;
+    content: '';
+    opacity: 0;
+}
+
+figure.effect-layla figcaption::before {
+    top: 25px;
+    right: 15px;
+    bottom: 25px;
+    left: 15px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: scale(0,1);
+    transform: scale(0,1);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+figure.effect-layla figcaption::after {
+    top: 15px;
+    right: 25px;
+    bottom: 15px;
+    left: 25px;
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+    -webkit-transform: scale(1,0);
+    transform: scale(1,0);
+    -webkit-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+}
+
+figure.effect-layla h2 {
+    padding-top: 35%;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+}
+
+figure.effect-layla p {
+    padding: 0.5em 2em;
+    text-transform: none;
+    opacity: 0;
+    -webkit-transform: translate3d(0,-10px,0);
+    transform: translate3d(0,-10px,0);
+}
+
+figure.effect-layla img,
+figure.effect-layla h2 {
+    -webkit-transform: translate3d(0,-60px,0);
+    transform: translate3d(0,-40px,0);
+}
+
+figure.effect-layla img,
+figure.effect-layla figcaption::before,
+figure.effect-layla figcaption::after,
+figure.effect-layla p {
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-layla:hover img {
+    opacity: 0.7;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,-20px,0);
+}
+
+figure.effect-layla:hover figcaption::before,
+figure.effect-layla:hover figcaption::after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+figure.effect-layla:hover h2,
+figure.effect-layla:hover p {
+    opacity: 1;
+    -webkit-transform: translate3d(0,-20px,0);
+    transform: translate3d(0,-20px,0);
+}
+
+figure.effect-layla:hover figcaption::after,
+figure.effect-layla:hover h2,
+figure.effect-layla:hover p,
+figure.effect-layla:hover img {
+    -webkit-transition-delay: 0.15s;
+    transition-delay: 0.15s;
+}
+
+.carousel-open:checked + .carousel-item {
+    position: relative;
+    opacity: 100;
+}
+.carousel-item {
+    -webkit-transition: opacity 0.6s ease-out;
+    transition: opacity 0.6s ease-out;
+}
+#carousel-1:checked ~ .control-1,
+#carousel-2:checked ~ .control-2,
+#carousel-3:checked ~ .control-3 {
+    display: block;
+}
+.carousel-indicators {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    bottom: 2%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
+    color: #2b6cb0;  /*Set to match the Tailwind colour you want the active one to be */
+}
+
+/* Winona */
+.button {
+    float: left;
+    position: relative;
+    z-index: 1;
+    -webkit-backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    cursor: pointer;
+    line-height: normal;
+}
+.button:focus {
+    outline: none;
+}
+.button > span {
+    vertical-align: middle;
+}
+.button--winona {
+    overflow: hidden;
+    -webkit-transition: border-color 0.3s, background-color 0.3s;
+    transition: border-color 0.3s, background-color 0.3s;
+    -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+.button--winona::after {
+    content: attr(data-text);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 16px;
+    left: 0;
+    opacity: 0;
+    -webkit-transform: translate3d(0, 25%, 0);
+    transform: translate3d(0, 25%, 0);
+}
+.button--winona > span {
+    display: block;
+}
+.button--winona::after,
+.button--winona > span {
+    padding: 0em 0em;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
+    -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+.button--winona:hover {
+    /*border-color: #3f51b5;
+    background-color: rgba(63, 81, 181, 0.1);*/
+}
+.button--winona:hover::after {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.button--winona:hover > span {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -25%, 0);
+    transform: translate3d(0, -25%, 0);
+}
+
+#bodyContent{
+    margin-top: 65px;
+}
+
+
+/* Menu & Menu Mobile */

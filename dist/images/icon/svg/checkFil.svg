@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>2 - CHARTE / Icons / default / CheckFil</title>
+    <desc>Created with Sketch.</desc>
+    <g id="2---CHARTE-/-Icons-/-default-/-CheckFil" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="check-circle" transform="translate(4.000000, 4.000000)" fill="#402955">
+            <path d="M16,8 C16,12.4182903 12.4182903,16 8,16 C3.58170968,16 0,12.4182903 0,8 C0,3.58170968 3.58170968,0 8,0 C12.4182903,0 16,3.58170968 16,8 Z M7.28285,10.8821789 L11.88285,6.25570439 C12.03905,6.0986054 12.03905,5.84387272 11.88285,5.68677374 L11.317175,5.11784309 C11.160975,4.96071897 10.9077,4.96071897 10.751475,5.11784309 L7,8.89088393 L5.248525,7.12932861 C5.092325,6.97222963 4.83905,6.97222963 4.682825,7.12932861 L4.11715,7.69825926 C3.96095,7.85535824 3.96095,8.11009092 4.11715,8.2671899 L6.71715,10.8821538 C6.873375,11.0392779 7.126625,11.0392779 7.28285,10.8821789 L7.28285,10.8821789 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

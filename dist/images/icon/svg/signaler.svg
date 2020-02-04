@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>2 - CHARTE / Icons / default / Signaler</title>
+    <desc>Created with Sketch.</desc>
+    <g id="2---CHARTE-/-Icons-/-default-/-Signaler" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(4.000000, 4.000000)">
+            <circle id="Oval" fill="#402955" cx="8" cy="8" r="8"></circle>
+            <g id="comment-alt-exclamation" transform="translate(6.000000, 4.000000)" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.6">
+                <path d="M2,6.8 C1.8887028,6.8 1.8,6.8887028 1.8,7 C1.8,7.1112972 1.8887028,7.2 2,7.2 C2.1112972,7.2 2.2,7.1112972 2.2,7 C2.2,6.8887028 2.1112972,6.8 2,6.8 Z M2.56930181,0.8 L1.43070762,0.8 L1.94070519,4.2 L2.05929271,4.2 L2.56930181,0.8 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

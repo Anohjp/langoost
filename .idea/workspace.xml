@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0de2861d-ddb7-4730-9e99-0b07dfacd95b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/langoost3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Memo Optimisation des pages.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/.idea/dist.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/b2b-home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/b2b-nos-services-engagement.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/b2c-contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/b2c-home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/b2c-liste-exams.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/b2c-template-lp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/b2c-toeic.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css/jquery.rateyo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css/luxbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css/tailwind.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css/tailwind.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/feature/footer/b2c-template-lp-footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/feature/footer/copyright.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/feature/footer/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/feature/head.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/feature/header/b2b-header-hold.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/feature/header/b2b-header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/feature/header/b2b-header1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/feature/header/b2c-header-hold.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/feature/header/b2c-header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/feature/header/b2c-template-lp-header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/feature/header/menu/b2b-menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/feature/header/menu/b2b-menu2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/feature/header/menu/b2c-menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/feature/header/menu/megemenu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/fonts/awesome/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/fonts/awesome/js/all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/fonts/montserrat/Montserrat-Black.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/fonts/montserrat/Montserrat-BlackItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/fonts/montserrat/Montserrat-Bold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/fonts/montserrat/Montserrat-BoldItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/fonts/montserrat/Montserrat-ExtraBold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/fonts/montserrat/Montserrat-ExtraBoldItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/fonts/montserrat/Montserrat-ExtraLight.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/fonts/montserrat/Montserrat-ExtraLightItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/fonts/montserrat/Montserrat-Italic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/fonts/montserrat/Montserrat-Light.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/fonts/montserrat/Montserrat-LightItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/fonts/montserrat/Montserrat-Medium.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/fonts/montserrat/Montserrat-MediumItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/fonts/montserrat/Montserrat-Regular.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/fonts/montserrat/Montserrat-SemiBold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/fonts/montserrat/Montserrat-SemiBoldItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/fonts/montserrat/Montserrat-Thin.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/fonts/montserrat/Montserrat-ThinItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/bg-rose2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/b2b-nos-servces-engagement-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/bg-cercle-footer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/bg-cercle-top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/bg-dream-team.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/bg-page-langoost-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/bg-page-langoost-img10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/bg-page-langoost-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/bg-page-langoost-img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/bg-page-langoost-img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/bg-page-langoost-img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/bg-page-langoost-img6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/bg-page-langoost-img7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/bg-page-langoost-img8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/bg-page-langoost-img9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/bg-page-nos-solution-img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/bg-rose-vertical-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/bg-rose-vertical-right-car.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/bg-rose-vertical-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/bg-section1-b2b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/bg-section1-b2c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/bg-test-langues-booster.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/bg-text-b2b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/bg-text-b2c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/bubble1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/bubble2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/bubble3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/bubble4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/bubble5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/carosoul.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/contact-cercle-orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/contact-general-img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/contact-general-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/corporate.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/corporate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/distribuez-langoost.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/distribuez-langoost.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/dream-team1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/dream-team2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/etablissement-d-enseigment.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/etablissement-d-enseigment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/fill.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/home-b2b-color.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/home-b2b-color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/home-b2b-color1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/home-b2b-color2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/home-b2b-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/home-b2b-img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/img-tranparente-demi-cercle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/imgleft2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/ma-progression-certificat-niveau.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/nos-fiertes1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/nos-fiertes10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/nos-fiertes11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/nos-fiertes12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/nos-fiertes13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/nos-fiertes2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/nos-fiertes3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/nos-fiertes3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/nos-fiertes4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/nos-fiertes5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/nos-fiertes6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/nos-fiertes7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/nos-fiertes8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/nos-fiertes9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/organisme-de-formation.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/organisme-de-formation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/page-press-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/page-press-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/page-prof-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/page-prof-img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/page-testlang-img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/pari-langoost.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/partenaire.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/reussir-exam.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/stars.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/text-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/text-bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/content/toeic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/pays/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/pays/allemagne.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/pays/china-flag-3d-round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/pays/china.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/pays/chine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/pays/espagne.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/pays/france-flag-3d-round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/pays/france.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/pays/france.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/pays/germany-flag-3d-round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/pays/germany.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/pays/grande-bretagne.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/pays/spain-flag-3d-round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/pays/spain-flag-round.ai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/pays/spain.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/pays/united-kingdom-flag-3d-round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/pays/united_kingdom.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - Access Blog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - Access GE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - Aide.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - Audio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - CheckBoxQuestion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - Correction.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - FausseBoxQuestion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - Home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - Lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - Theme.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - Time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - activé.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - address-card.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - alarm-clock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - award.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - bibliothèque.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - bicycle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - binoculars.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - book-spells.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - brain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - bullseye-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - car-side.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - chalkboard-teacher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - chart-bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - clipboard-list-check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - cogs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - comment-alt-smile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - dupliquer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - envelope-open-text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - envelope.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - exchange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - fermer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - filtre.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - flag-alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - grin-hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - laptop-code.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - medal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - mobile-alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - motorcycle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - newspaper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - supprimer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - tableau.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - tips.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - trad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default - view.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Icons - default lightbulb-on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/arrow-menu-b2b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/arrow-menu-b2c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/bottom-orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/checkFil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/drapeaux.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/icons-default -parcours.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/icons-default-briefcase.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/icons-default-building.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/icons-default-bullhorn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/icons-default-city.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/icons-default-desktop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/icons-default-grin-wink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/icons-default-hotel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/icons-default-langoost.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/icons-default-laptop-code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/icons-default-media.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/icons-default-niveau.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/icons-default-paper-plane.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/icons-default-play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/icons-default-plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/icons-default-recherche.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/icons-default-signaler.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/icons-default-skill.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/icons-default-trophy-alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/icons-default-user-friends.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/icons-default-users.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/iconsdefault-progression.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/pointed-star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/pointed-star2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/premium.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/png/star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/AccessGE.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/Lock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/Niveau.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/Parcours.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/Pause.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/Play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/accessBlog.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/active.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/address-card.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/aide.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/alarm-clock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/audio.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/award.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/bibliotheque.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/bicycle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/binoculars.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/book-spells.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/bottom.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/brain.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/briefcase.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/building.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/bullhorn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/bullseye-arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/car-side.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/chalkboard-teacher.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/chart-bar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/chart-pie.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/checkBoxQuestion.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/checkFil.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/chevron-down-solid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/city.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/clipboard-list-check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/cogs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/comment-alt-smile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/correction.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/desktop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/dupliquer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/edit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/envelope-open-text.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/envelope.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/exchange.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/fausseBoxQuestion.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/fermer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/file.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/filtre.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/flag-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/grin-hearts.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/grin-wink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/home.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/hotel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/laptop-code.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/medal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/media.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/mobile-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/motorcycle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/newspaper.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/next.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/paper-plane.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/phone-laptop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/phone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/plane-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/progression.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/rate.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/recherche.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/selecte.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/signaler.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/skill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/star_gris.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/supprimer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/tableau.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/theme.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/time.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/tips.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/trad.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/trophy-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/user-friends.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/user.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/users.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icon/svg/view.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/logos/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/logos/langoost-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/logos/logo-langoost-b2b.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/logos/logo-langoost-b2c.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/logos/logo-langoost-part.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/logos/logo-langoost-prof.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/logos/logo-langoost.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/logos/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/pari-langoost.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/partenaires/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/partenaires/logo-partenaire1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/partenaires/logo-partenaire10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/partenaires/logo-partenaire11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/partenaires/logo-partenaire2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/partenaires/logo-partenaire3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/partenaires/logo-partenaire4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/partenaires/logo-partenaire5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/partenaires/logo-partenaire6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/partenaires/logo-partenaire7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/partenaires/logo-partenaire8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/partenaires/logo-partenaire9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/reso-socio/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/reso-socio/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/reso-socio/linkedin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/reso-socio/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/reso-socio/youtube.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/buttonstrip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/buttonstrip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/jquery.rateyo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/la-dream-team.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/le-pari-de-langoost.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/nos-fiertes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/nos-profs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/nos-solutions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/presse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/register.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind.config.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>btn-default</find>
+      <find>sm</find>
+      <find>btn-global</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Eudes &lt;eudeskouassi@hotmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WVnF0qfuIx1BRWHURG1CBKBYDD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="Y:\xampp\htdocs\langoost_v01\dist" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0de2861d-ddb7-4730-9e99-0b07dfacd95b" name="Default Changelist" comment="" />
+      <created>1579185664868</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579185664868</updated>
+      <workItem from="1579185682170" duration="773000" />
+      <workItem from="1579243548337" duration="1777000" />
+      <workItem from="1579250643539" duration="1217000" />
+      <workItem from="1579253179276" duration="1104000" />
+      <workItem from="1579255872051" duration="324000" />
+      <workItem from="1579258773164" duration="292000" />
+      <workItem from="1579263223425" duration="220000" />
+      <workItem from="1579274846619" duration="595000" />
+      <workItem from="1579276601908" duration="725000" />
+      <workItem from="1579277422599" duration="1197000" />
+      <workItem from="1579279761226" duration="1198000" />
+      <workItem from="1579507890786" duration="2281000" />
+      <workItem from="1579518893520" duration="250000" />
+      <workItem from="1579519158402" duration="200000" />
+      <workItem from="1579519370703" duration="30000" />
+      <workItem from="1579519404704" duration="70000" />
+      <workItem from="1579534127814" duration="773000" />
+      <workItem from="1579534907794" duration="44000" />
+      <workItem from="1579535108792" duration="2557000" />
+      <workItem from="1579592840607" duration="1984000" />
+      <workItem from="1579597851579" duration="872000" />
+      <workItem from="1579681556447" duration="1607000" />
+      <workItem from="1579770133993" duration="4455000" />
+      <workItem from="1579775295511" duration="5211000" />
+      <workItem from="1580813015039" duration="418000" />
+    </task>
+    <task id="LOCAL-00001" summary="Langoost update du 22/01/2020">
+      <created>1579715440378</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579715440378</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Langoost update du 22/01/2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="Langoost update du 22/01/2020" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1580813011771" />
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1580813011771" />
+    <state x="186" y="0" key="SettingsEditor" timestamp="1580813437822">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="186" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1580813437822" />
+    <state x="384" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1580813028573">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="384" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1580813011771" />
+    <state x="384" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1580813028573" />
+    <state x="392" y="124" width="666" height="288" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1580813198317">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="392" y="124" width="666" height="288" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1366.738@0.0.1366.738" timestamp="1580813198317" />
+    <state x="339" y="10" width="670" height="676" key="search.everywhere.popup" timestamp="1580813011771" />
+    <state x="339" y="10" width="670" height="676" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1580813011771" />
+  </component>
+</project>
