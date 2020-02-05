@@ -12,7 +12,7 @@
         </div>
 
         <div id="bodyContent">
-            <section class="" style="background: url(images/content/bg-cercle-top.png) no-repeat 50% 100%,url(images/content/bg-section1-b2b.png) repeat-y 50% 50%;">
+            <section class="-mt-1px" style="background: url(images/content/bg-cercle-top.png) no-repeat 50% 100%,url(images/content/bg-section1-b2b.png) repeat-y 50% 50%;">
                 <div class="lg:w-full sm:w-1/2 flex flex-wrap">
                     <div class="w-1/2 bg-langoostViolet80 pr-50px pt-50px">
                         <div>

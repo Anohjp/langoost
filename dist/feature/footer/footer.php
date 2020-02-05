@@ -25,7 +25,7 @@
 
         <div class="w-1/5 border-l border-langoostGrey50">
             <ul class="list-none leading-loose pl-12 uppercase">
-                <li><a href="#">Contactez-nous</a></li>
+                <li><a href="b2c-contact.php">Contactez-nous</a></li>
                 <li><a href="#">Faq</a></li>
                 <li><a href="#">Affiliation</a></li>
                 <li><a href="#">Recrutement</a></li>

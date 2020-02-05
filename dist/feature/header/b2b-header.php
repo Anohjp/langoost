@@ -138,7 +138,7 @@
 
                     <!--Nos tarifs-->
                     <li class="luxbar-item">
-                        <a href="#" class="block lg:text-12px b2b-menu font-medium">Nos tarifs</a>
+                        <a href="#" class="block lg:text-13px b2b-menu font-medium">Nos tarifs</a>
                     </li>
                     
                     <!--Langoost-->
