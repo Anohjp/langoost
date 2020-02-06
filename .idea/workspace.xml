@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0de2861d-ddb7-4730-9e99-0b07dfacd95b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dist/b2b-demande-devis.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/b2b-espace-d-administration-dedie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/b2c-tarifs-exams.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/b2b-nos-services-engagement.php" beforeDir="false" afterPath="$PROJECT_DIR$/dist/b2b-nos-services-engagement.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/tailwind.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/tailwind.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/feature/footer/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/dist/feature/footer/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/feature/header/b2b-header-hold.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/feature/header/b2b-header.php" beforeDir="false" afterPath="$PROJECT_DIR$/dist/feature/header/b2b-header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/feature/header/b2b-header1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/feature/header/b2c-header-hold.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/feature/header/menu/b2b-menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/feature/header/menu/b2b-menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/feature/header/menu/b2b-menu2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/content/bg-text-b2b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/content/bg-text-b2b.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +36,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="langoost_v02" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -72,7 +58,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -93,7 +79,7 @@
     </option>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\JeanPaul\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -127,7 +113,8 @@
       <workItem from="1579770133993" duration="4455000" />
       <workItem from="1579775295511" duration="5211000" />
       <workItem from="1580813015039" duration="20189000" />
-      <workItem from="1580890347677" duration="22810000" />
+      <workItem from="1580890347677" duration="24357000" />
+      <workItem from="1581005456112" duration="1479000" />
     </task>
     <task id="LOCAL-00001" summary="Langoost update du 22/01/2020">
       <created>1579715440378</created>
@@ -143,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580813638058</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Langoost update du 05/02/2020">
+      <created>1580918591496</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580918591497</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -190,23 +184,28 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Langoost update du 22/01/2020" />
     <MESSAGE value="Langoost update du 04/02/2020" />
-    <option name="LAST_COMMIT_MESSAGE" value="Langoost update du 04/02/2020" />
+    <MESSAGE value="Langoost update du 05/02/2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="Langoost update du 05/02/2020" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1580813633165">
+    <state x="363" y="95" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1581009884034">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1580813633165" />
+    <state x="363" y="95" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.738@0.0.1366.738" timestamp="1581009884034" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1580918578252">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1580918578252" />
     <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1580813011771" />
     <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1580813011771" />
-    <state x="186" y="0" key="SettingsEditor" timestamp="1580813437822">
+    <state x="186" y="0" key="SettingsEditor" timestamp="1581009868338">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="186" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1580813437822" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1580813704866">
+    <state x="186" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1581009868338" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1580918719160">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1580813704866" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1580918719160" />
     <state x="384" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1580813028573">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
