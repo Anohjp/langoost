@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0de2861d-ddb7-4730-9e99-0b07dfacd95b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dist/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +115,7 @@
       <workItem from="1579775295511" duration="5211000" />
       <workItem from="1580813015039" duration="20189000" />
       <workItem from="1580890347677" duration="24357000" />
-      <workItem from="1581005456112" duration="1479000" />
+      <workItem from="1581005456112" duration="2283000" />
     </task>
     <task id="LOCAL-00001" summary="Langoost update du 22/01/2020">
       <created>1579715440378</created>
@@ -196,16 +197,18 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1580918578252" />
-    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1580813011771" />
-    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1580813011771" />
+    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1581010107622">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1581010107622" />
     <state x="186" y="0" key="SettingsEditor" timestamp="1581009868338">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="186" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1581009868338" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1580918719160">
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1581010752646">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1580918719160" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1581010752646" />
     <state x="384" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1580813028573">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

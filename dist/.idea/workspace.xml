@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f976349a-bd1e-460b-946b-4698bf613427" name="Default Changelist" comment="" />
+    <list default="true" id="f976349a-bd1e-460b-946b-4698bf613427" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +16,11 @@
     </execution>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="langoost_v02.1" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1WNvUSPPl1YdyGDZCmhhuCqqClJ" />
@@ -52,16 +60,37 @@
       <updated>1579002882080</updated>
       <workItem from="1579002883649" duration="6354000" />
       <workItem from="1579016606198" duration="9368000" />
+      <workItem from="1581010113916" duration="297000" />
     </task>
+    <task id="LOCAL-00001" summary="Update du 06/02/2020">
+      <created>1581010214180</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581010214180</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update du 06/02/2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update du 06/02/2020" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1581010199954">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1581010199954" />
     <state x="149" y="48" key="SettingsEditor" timestamp="1579022014367">
       <screen x="0" y="23" width="1280" height="773" />
     </state>
     <state x="149" y="48" key="SettingsEditor/0.23.1280.773@0.23.1280.773" timestamp="1579022014367" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1581010270573">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1581010270573" />
   </component>
 </project>
